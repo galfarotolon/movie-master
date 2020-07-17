@@ -6,7 +6,7 @@ import '../App.css'
 const baseURL = 'https://api.themoviedb.org/3'
 const baseImgURL = 'https://image.tmdb.org/t/p/original'
 
-function Row({ title, url }) {
+function Row({ title, url, largeRow }) {
 
     const [movies, setMovies] = useState([]);
 
@@ -33,7 +33,7 @@ function Row({ title, url }) {
 
                 {movies.map(movie => (
 
-                    <img className='rowPoster' src={`${baseImgURL}${movie.poster_path}`} alt={movie.name} key={movie.id} />
+                    <img className={`rowPoster ${largeRow && "rowPosterLarge"}`} src={`${baseImgURL}${largeRow ? movie.poster_path : movie.backdrop_path}`} alt={movie.name} key={movie.id} />
 
                 ))}
 
