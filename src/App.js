@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       {/* <h1>Welcome to Movie Master!</h1> */}
-      <Banner></Banner>
+      <Banner />
       <Row title="Netflix Originals" url={requests.fetchNetflixOriginals} largeRow></Row>
       <Row title="Trending Now" url={requests.fetchTrending}></Row>
       <Row title="Top Rated" url={requests.fetchTopRated}></Row>
