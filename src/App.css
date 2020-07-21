@@ -134,7 +134,7 @@
 
   /* display: flex;
   justify-content: space-between; */
-  
+
 
   /* fade in for banner when scrolling down */
 
@@ -154,7 +154,7 @@
 
   position: fixed;
   left: 20px;
-  width: 80px;
+  width: 10%;
   object-fit: contain;
 
 }
@@ -162,7 +162,7 @@
 .navAvatar{
   position: fixed;
   right: 20px;
-  width: 30px;
+  width: 10%;
   object-fit: contain;
 }
 
