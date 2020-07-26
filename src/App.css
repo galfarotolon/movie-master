@@ -83,11 +83,11 @@
 }
 
 .bannerDescription{
-  width: 45rem;
+  width: 50rem;
   line-height: 1.3;
   padding-top: 1rem;
   font-size: 1rem;
-  max-width: 450px;
+  max-width: 100%;
   height: 80px;
 }
 
