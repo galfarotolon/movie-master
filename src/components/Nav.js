@@ -30,7 +30,7 @@ function Nav() {
     return (
         <div className={`nav ${show && 'navBlack'} `}>
             <img className='navLogo' src={logo} alt="movie-master" />
-            <img className='navAvatar' src={logo} alt="movie-master" />
+            {/* <img className='navAvatar' src={logo} alt="movie-master" /> */}
 
 
 
