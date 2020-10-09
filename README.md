@@ -8,7 +8,7 @@ This is a personal project that aims to copy the Netflix streaming service layou
 
 # Status
 
-This is an ongoing projec I work on in my free time. Next features I'm looking to implement are:
+This is an ongoing project I work on in my free time. Next features I'm looking to implement are:
 
 - Add user onboarding/login
 - Add movie details/trailer router when poster is clicked
